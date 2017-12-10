@@ -1,6 +1,6 @@
-# Kolbeinn Ingólfsson og Águst Örn Eiðsson
-# 29.11.2017
-# Lokaverkefni - VEF
+# Kolbeinn Ingólfsson
+# 10.12.2017
+# Verkefni 12 - VEF
 
 from bottle import *
 from pymysql import *
@@ -124,12 +124,6 @@ def index(name):
         return redirect("/")
 
     return template("uppl", a=a, u=u)
-
-#print(argv)
-
-#run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
-#run(host='0.0.0.0', port=5000, app=app)
-#run(host='0.0.0.0', port=8080, app=app)
 
 
 run(host="0.0.0.0", port=argv[1], app=app)

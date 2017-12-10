@@ -2,7 +2,7 @@
 <html>
 <head>
     <intercept-url pattern="/favicon.ico" access="ROLE_ANONYMOUS" />
-    <title>Lokaverkefni - VEF</title>
+    <title>Verkefni 12 - VEF</title>
     <meta charset="utf-8">
     <link href="/static/css/styles.css" rel="stylesheet" type="text/css">
 </head>
