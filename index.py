@@ -8,7 +8,7 @@ from beaker.middleware import SessionMiddleware
 from sys import argv
 
 
-db = Connect(host="tsuts.tskoli.is", user="0908002640", password="mypassword", db="0908002640_vefLok")
+db = Connect(host="tsuts.tskoli.is", user="0908002640", password="mypassword", db="0908002640_vef2verk12")
 cursor = db.cursor()
 cursor.execute("select * from vorur")
 numrows = int(cursor.rowcount)
