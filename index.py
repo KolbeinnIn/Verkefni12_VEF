@@ -8,6 +8,20 @@ from beaker.middleware import SessionMiddleware
 from sys import argv
 
 
+"""
+1 Free hosting: manneskja hostar síðu ókeypis
+2 Shared hosting: Margar síður eru á einum server
+3 Virtual hosting: Það er hostað mörg domain á einum server og geta skipts á
+4 Dedicated hosting: Notandi fær server og getur stjórnað honum með mikið fleiri úrræðum
+5 Collocated hosting: Þú leigir pláss fyrir server
+6 Ecommerce hosting: Vef hostinn býður upp á tól til að hjálpa að setja upp og hýsa vefsíðuna
+
+
+1. Það er gott að skrá notendurnar með lykilorðum og notendanafni svo þeir geta skráð sig inn. Einnig hjálpar að vera með e-mail notenda
+
+2. Hún að lýta vel út gg þarf að hafa einfalt nafn svo sé létt að muna eftir henni, vefsíðan þarf að vera einföld og "fool-proof" svo það veldur ekki pirring við notkun
+"""
+
 db = Connect(host="tsuts.tskoli.is", user="0908002640", password="mypassword", db="0908002640_vef2verk12")
 cursor = db.cursor()
 cursor.execute("select * from vorur")
